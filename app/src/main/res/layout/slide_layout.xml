@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:scaleType="fitEnd"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/dec" />
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/deco" />
+                </RelativeLayout>
+                <ImageView
+                    android:id="@+id/slide_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:padding="12dp"
+                    android:src="@drawable/frnd" />
+                <TextView
+                    android:id="@+id/slide_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textColor="#36455a"
+                    android:fontFamily="@font/lato_bold"
+                    android:layout_gravity="center"
+                    android:text="Heading"
+                    />
+                <TextView
+                    android:id="@+id/slider_text"
+                    android:layout_marginTop="35dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/open_sans"
+                    android:text="this is the paragraph text view for frenge on boarding"
+                    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+            </LinearLayout>

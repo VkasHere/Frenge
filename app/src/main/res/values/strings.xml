@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Frenge</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">Frenge word is refer to Friendship Range.It is a Friendship quiz app which let you set some questions for your friends and challenge your friends to take quiz.After They Completed the quiz,You get to know about the Friendship Range (Frenge) between you and your Friend. So Challenge Your Friends and check your Friendship Range.</string>
+</resources>

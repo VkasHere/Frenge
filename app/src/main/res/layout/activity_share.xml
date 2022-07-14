@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bluee"
+    android:orientation="vertical"
+    tools:context=".createquiz.share">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/round2"
+                android:layout_height="150dp">
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Frenge"
+                    android:gravity="center"
+                    android:textSize="85sp"
+                    android:fontFamily="@font/honey"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="240sp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/shr"/>
+                <TextView
+                    android:layout_marginTop="21dp"
+                    android:textColor="#696969"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/open_sans_semibold"
+                    android:text="Share this Quiz with your Friends"
+                    android:textSize="21sp"/>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="25dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/link"
+                        android:layout_marginStart="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:gravity="center"
+                        android:text="Share this Quiz with your"
+                        android:textColor="#696969"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <ImageView
+                        android:id="@+id/copy"
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_marginEnd="25dp"
+                        android:src="@drawable/copy"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="12dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txt"
+                        android:layout_marginStart="30dp"
+                        android:layout_width="310dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:text="Share this Quiz with your"
+                        android:textColor="#696969"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <ImageView
+                        android:id="@+id/copy1"
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_marginEnd="25dp"
+                        android:src="@drawable/copy"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/open_sans"
+                    android:text="Send them this link and ask them to download Frenge"
+                    android:textSize="15sp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/share"
+                        android:layout_width="match_parent"
+                        android:layout_margin="15dp"
+                        android:layout_height="50dp"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:background="@drawable/btn_ripple"
+                        android:textColor="@color/bluee"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="Share"
+                        />
+                    <TextView
+                        android:background="@color/bluee"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

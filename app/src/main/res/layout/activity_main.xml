@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bluee"
+    tools:context=".MainActivity">
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@drawable/round2"
+                    android:layout_height="250sp">
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:text="Frenge"
+                        android:gravity="center"
+                        android:textSize="85sp"
+                        android:fontFamily="@font/honey"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:background="@color/bluee"
+                    android:layout_marginTop="25dp"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/crt"
+                        android:background="@drawable/ripple"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <LinearLayout
+                            android:layout_width="310dp"
+                            android:layout_marginStart="24dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+
+                            <TextView
+                                android:layout_width="310dp"
+                                android:layout_height="40dp"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="center_vertical"
+                                android:text="Create a Quiz"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+                            <TextView
+                                android:layout_width="310dp"
+                                android:layout_height="25dp"
+                                android:fontFamily="@font/open_sans"
+                                android:gravity="center_vertical"
+                                android:text="Make a Quiz and share with friends"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                        <ImageView
+                            android:padding="12sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:src="@drawable/crt"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/jon"
+                        android:background="@drawable/ripple"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                       >
+
+                        <LinearLayout
+                            android:layout_width="310dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginStart="24dp"
+                            >
+                            <TextView
+                                android:layout_width="310dp"
+                                android:layout_height="40dp"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="center_vertical"
+                                android:text="Join a Quiz"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="310dp"
+                                android:layout_height="25dp"
+                                android:fontFamily="@font/open_sans"
+                                android:gravity="center_vertical"
+                                android:text="Enter in Your friends quiz"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:padding="12sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:layout_gravity="end"
+                            android:src="@drawable/add"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/dash"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/ripple"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="310dp"
+                            android:layout_marginStart="24dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="310dp"
+                                android:layout_height="40dp"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="center_vertical"
+                                android:text="Dashboard"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="310dp"
+                                android:layout_height="25dp"
+                                android:fontFamily="@font/open_sans"
+                                android:gravity="center_vertical"
+                                android:text="See Leaderboard of your quiz"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:layout_gravity="end"
+                            android:padding="12sp"
+                            android:src="@drawable/podium" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/how"
+                        android:background="@drawable/ripple"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="310dp"
+                            android:layout_marginStart="24dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="310dp"
+                                android:layout_height="40dp"
+                                android:textSize="20sp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/lato_bold"
+                                android:text="Your Quiz Referrals"
+                                />
+
+                            <TextView
+                                android:layout_width="310dp"
+                                android:layout_height="25dp"
+                                android:fontFamily="@font/open_sans"
+                                android:gravity="center_vertical"
+                                android:text="See Your quiz Referrals ID and copy them."
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:padding="12sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:layout_gravity="end"
+                            android:src="@drawable/knw"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/hw"
+                        android:background="@drawable/ripple"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="310dp"
+                            android:layout_marginStart="24dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="310dp"
+                                android:layout_height="40dp"
+                                android:textSize="20sp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/lato_bold"
+                                android:text="How to use Frenge"
+                                />
+
+                            <TextView
+                                android:layout_width="310dp"
+                                android:layout_height="25dp"
+                                android:fontFamily="@font/open_sans"
+                                android:gravity="center_vertical"
+                                android:text="Instructions to use Frenge app."
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:padding="12sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:layout_gravity="end"
+                            android:src="@drawable/confused"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/About"
+                        android:background="@drawable/ripple"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="310dp"
+                            android:layout_marginStart="24dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="310dp"
+                                android:layout_height="40dp"
+                                android:textSize="20sp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/lato_bold"
+                                android:text="About us"
+                                />
+
+                            <TextView
+                                android:layout_width="310dp"
+                                android:layout_height="25dp"
+                                android:fontFamily="@font/open_sans"
+                                android:gravity="center_vertical"
+                                android:text="Know about Frenge and contact us."
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:padding="12sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:layout_marginEnd="12dp"
+                            android:layout_gravity="end"
+                            android:src="@drawable/information"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="20dp"
+                    />
+            </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+
+</LinearLayout>

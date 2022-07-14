@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bluee"
+    android:orientation="vertical"
+    tools:context=".createquiz.name">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/round2"
+                android:layout_height="150dp">
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Frenge"
+                    android:gravity="center"
+                    android:textSize="85sp"
+                    android:fontFamily="@font/honey"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="240sp"
+                    android:layout_margin="12sp"
+                    android:src="@drawable/name"/>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/name"
+                    android:layout_margin="25dp"
+                    android:textSize="21sp"
+                    android:hint="Enter your name"
+                    app:counterMaxLength="20"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_height="wrap_content"
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:digits="aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyY zZ0123456789"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <LinearLayout
+                    android:layout_marginTop="-20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:textSize="18sp"
+                        android:layout_marginStart="18dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:text="Gender :"
+                        />
+                    <RadioGroup
+                        android:id="@+id/Radio"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                            android:id="@+id/male"
+                            android:text="Male"
+                            android:padding="10dp"
+                            android:button="@android:color/transparent"
+                            android:background="@drawable/radio_selector"
+                            android:textColor="@drawable/text_color"
+                            android:elevation="4dp"
+                            android:fontFamily="@font/open_sans"
+                            android:textSize="18sp"
+                            android:layout_margin="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <RadioButton
+                            android:id="@+id/female"
+                            android:text="Female"
+                            android:padding="10dp"
+                            android:button="@android:color/transparent"
+                            android:background="@drawable/radio_selector"
+                            android:textColor="@drawable/text_color"
+                            android:elevation="4dp"
+                            android:fontFamily="@font/open_sans"
+                            android:textSize="18sp"
+                            android:layout_margin="16dp"
+                               android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </RadioGroup>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/next"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="22dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/btn_ripple"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center"
+                    android:text="Next"
+                    android:textColor="@color/bluee"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:background="@color/bluee"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "847827878185",
+    "firebase_url": "https://frengepvt-default-rtdb.firebaseio.com",
+    "project_id": "frengepvt",
+    "storage_bucket": "frengepvt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847827878185:android:e49cd68c4e5181b7537738",
+        "android_client_info": {
+          "package_name": "com.example.frenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847827878185-7lp129slh3gbkv9v9tee9faahc9ef9u6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.frenge",
+            "certificate_hash": "a9318de8bf45fd3c3cd8f74796b838a7b915f9b2"
+          }
+        },
+        {
+          "client_id": "847827878185-eau0ktmqcf5tnn0atkj3vk2dpdr4q1e9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3C8IcjU_cCkSzn4kQYTrWCfGi05X1cQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847827878185-eau0ktmqcf5tnn0atkj3vk2dpdr4q1e9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

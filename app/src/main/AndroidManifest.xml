@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.frenge">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <queries>
+        <!-- Specific apps you interact with, eg: -->
+        <package android:name="com.example.gmail" />
+        <package android:name="com.example.service" />
+        <!--
+             Specific intents you query for,
+             eg: for a custom share UI
+        -->
+        <intent>
+            <action android:name="android.intent.action.SEND" />
+            <data android:mimeType="image/jpeg" />
+        </intent>
+    </queries>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".howto.About"/>
+        <activity android:name=".createquiz.selectquiz" />
+        <activity android:name=".howto.howtocrt" />
+        <activity android:name=".howto.howtojon" />
+        <activity android:name=".howto.whatref" />
+        <activity android:name=".howto.whatdash" />
+        <activity android:name=".howto.probselect" />
+        <activity android:name=".dashboard.my_referrals" />
+        <activity android:name=".joinquiz.scoremeter" />
+        <activity android:name=".createquiz.share" />
+        <activity android:name=".dashboard.leaderboard" />
+        <activity android:name=".dashboard.dashboard" />
+        <activity android:name=".joinquiz.referral" />
+        <activity android:name=".createquiz.name" />
+        <activity android:name=".joinquiz.quiz" />
+        <activity android:name=".createquiz.quizsel" />
+        <activity android:name=".dashborad" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.frenge.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepath" />
+        </provider>
+    </application>
+
+</manifest>
